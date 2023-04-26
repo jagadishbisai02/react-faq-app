@@ -1,0 +1,59 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  background-color: #f1f5f8;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px 12px;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 80%;
+    height: 130vh;
+    max-width: 1140px;
+    padding: 45px;
+  }
+}
+
+.main-heading {
+  color: #cb8805;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 64px;
+  }
+}
+
+.faq-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .faq-list {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .faq-list {
+    width: 80%;
+  }
+}
